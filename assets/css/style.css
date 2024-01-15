@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Hero Section Styles */
+.bg-hero {
+  background-color: #3498db;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+}
+
+/* Booking Form Styles */
+.bg-white {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.btn-primary.shadow-none {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+}
+
+/* Room List Styles */
+.bg-silver {
+  background-color: #f2f2f2;
+  padding: 20px 0;
+}
+
+.card {
+  border: none;
+  transition: box-shadow 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .col-md-6,
+  .col-md-8,
+  .col-md-2 {
+    width: 100%;
+  }
+}
